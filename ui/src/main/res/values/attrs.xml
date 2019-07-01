@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="Value" format="float"/>
+    <attr name="Mark" format="reference"/>
+    <attr name="MarkTextSize" format="float"/>
+    <attr name="MarkTextColor" format="integer"/>
+    <attr name="Progress" format="float"/>
+    <attr name="AraeColor" format="reference"/>
+    <attr name="Proportion" format="reference"/>
+    <attr name="MaxValue" format="float"/>
+
+    <declare-styleable name="DialView">
+        <attr name="Progress"/>
+        <attr name="ValueTextSize" format="float"/>
+        <attr name="MarkTextSize"/>
+        <attr name="UtilTextSize" format="float"/>
+        <attr name="Util" format="string"/>
+        <attr name="Value"/>
+        <attr name="Mark"/>
+        <attr name="ValueText" format="string"/>
+        <attr name="AraeColor"/>
+        <attr name="Proportion"/>
+        <attr name="Type" format="enum">
+            <enum value="0" name="Gradual"/>
+            <enum value="1" name="Proportion"/>
+        </attr>
+        <attr name="AreaInterval" format="float"/>
+        <attr name="MaxValue"/>
+    </declare-styleable>
+
+    <declare-styleable name="ThermometerView">
+        <attr name="MarkTextSize"/>
+        <attr name="Value"/>
+        <attr name="LiquidColor" format="integer"/>
+        <attr name="ShellThick" format="integer"/>
+        <attr name="MarkLineThick" format="integer"/>
+        <attr name="ShellColor" format="integer"/>
+        <attr name="MarkLineColor" format="integer"/>
+        <attr name="Mark"/>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressBar">
+        <attr name="MarkTextSize"/>
+        <attr name="Value"/>
+        <attr name="Mark"/>
+        <attr name="MarkTextColor"/>
+        <attr name="AraeColor"/>
+        <attr name="Proportion"/>
+        <attr name="MaxValue"/>
+        <attr name="Progress"/>
+        <attr name="MarkStart" format="string"/>
+        <attr name="ClearAreaColor" format="reference"/>
+        <attr name="StrokeProportion" format ="float"/>
+    </declare-styleable>
+</resources>

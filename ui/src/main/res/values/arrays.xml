@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mark1">
+        <item>3</item>
+        <item>6</item>
+        <item>9</item>
+        <item>12</item>
+        <item>15</item>
+        <item>18</item>
+        <item>21</item>
+    </string-array>
+
+    <string-array name="mark2">
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+    </string-array>
+
+    <array name="areacolor">
+        <item>#0AA9EF</item>
+        <item>#37C296</item>
+        <item>#92B51A</item>
+        <item>#E6BE00</item>
+        <item>#FF9700</item>
+        <item>#F06969</item>
+        <item>#BC3B58</item>
+    </array>
+
+    <string-array name="proportion">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+</resources>
