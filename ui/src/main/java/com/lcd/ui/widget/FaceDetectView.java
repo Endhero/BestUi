@@ -584,8 +584,8 @@ public class FaceDetectView extends FrameLayout implements ViewTreeObserver.OnGl
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    public void setRadius(int nRadius){
-        setOutlineProvider(new FaceDetectViewOutlineProvider(nRadius));
+    public void setRadius(float fRadius){
+        setOutlineProvider(new FaceDetectViewOutlineProvider(fRadius));
     }
 
     public interface FaceDetectListener{
