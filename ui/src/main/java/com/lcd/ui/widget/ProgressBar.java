@@ -68,6 +68,8 @@ public class ProgressBar extends View {
         int nAreaColor = typedarray.getResourceId(R.styleable.ProgressBar_AraeColor, 0);
         int nProportion = typedarray.getResourceId(R.styleable.ProgressBar_Proportion, 0);
 
+        typedarray.recycle();
+
         if  (m_fValue > m_fMaxValue)
             m_fValue = m_fMaxValue;
 

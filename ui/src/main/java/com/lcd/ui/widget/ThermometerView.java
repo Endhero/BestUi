@@ -188,6 +188,8 @@ public class ThermometerView extends View
 
         int n = typedarray.getResourceId(R.styleable.ThermometerView_Mark, 0);
 
+        typedarray.recycle();
+
         if (n != 0)
             m_strMark = context.getResources().getStringArray(n);
 

@@ -82,6 +82,8 @@ public class DialView extends View
         int nAreaColor = typedarray.getResourceId(R.styleable.DialView_AraeColor, 0);
         int nProportion = typedarray.getResourceId(R.styleable.DialView_Proportion, 0);
 
+        typedarray.recycle();
+
         if (nValueText != 0)
         {
             m_strValueText = getResources().getString(nValueText);
